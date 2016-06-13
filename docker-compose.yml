@@ -1,0 +1,6 @@
+version: '2'
+services:
+  hello:
+    image: kr1sp1n/service-hello
+    ports:
+      - "3001:8580"
