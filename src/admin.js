@@ -28,7 +28,6 @@ module.exports = function (config) {
 
     post: (req, res, params) => {
       // const route = gateway.addRoute(req.body);
-      // console.log('router', route);
       return fromJson({});
     },
 

@@ -4,7 +4,7 @@ const app = require('./app');
 
 // TODO refactor to dynamic reading
 config.routes = [
-  { methods: ['post', 'get'], path: '/hello', service: 'http://dockerhost:3001/', auth: false },
+  { methods: ['post', 'get', 'head'], path: '/hello', service: 'http://dockerhost:3001/', auth: false },
 ];
 
 http.createServer(app(config)).listen(config.port);
